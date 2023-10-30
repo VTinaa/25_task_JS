@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background: url(https://img.freepik.com/free-photo/top-view-fabric-texture_23-2148952738.jpg?w=740&t=st=1689095657~exp=1689096257~hmac=ed0ed2e5f72e91d037b3c2e307132c48f90f7bd4dbf0af5133ffc29ff58dde7d); */
+    background: #91eae4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #91EAE4, #6e8dc5, #6a6ab3);
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+div.enter{
+    height: 100vh;
+}
+
+input {
+    margin: 2px;
+    height: 30px;
+    width: 170px;
+}
+
+input[placeholder] {
+    color: #646464;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 10px;
+    outline: none
+}
+
+input:valid {
+    color: #141414;
+
+}
+
+label {
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    display: inline-block;
+    color: #282727;
+}
+
+.enter {
+    position: relative;
+    z-index: 0;
+
+}
+
+.square {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    z-index: 2;
+    /* background: url(https://img.freepik.com/free-photo/top-view-fabric-texture_23-2148952738.jpg?w=740&t=st=1689095657~exp=1689096257~hmac=ed0ed2e5f72e91d037b3c2e307132c48f90f7bd4dbf0af5133ffc29ff58dde7d); */
+    background-color: #84c5c1;
+
+    border-radius: 50%;
+    top: 7%;
+    right: -17px;
+    border-left: 1px solid #000;
+}
+
+.arrow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 3;
+
+    border-radius: 50%;
+    top: 10%;
+    right: 0;
+}
+
+.arrow img {
+    width: 30px;
+    height: 30px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.signup a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
+}
+
+.enterbutton {}
+
+form{
+    margin-top: 15px;
+}
